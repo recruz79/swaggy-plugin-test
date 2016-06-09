@@ -1,6 +1,6 @@
 package com.app
 
-import swaggy.hidden.annotations.HiddenApiRest
+import hiding.swagger.annotations.HiddenApiRest
 
 @HiddenApiRest(values = ["version", "address"])
 class Author {

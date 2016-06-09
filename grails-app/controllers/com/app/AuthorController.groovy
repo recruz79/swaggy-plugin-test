@@ -1,10 +1,10 @@
 package com.app
 
 import com.wordnik.swagger.annotations.Api
-import grails.rest.RestfulController
+import hiding.swagger.CrudRestfulController
 
 @Api("Author domain services")
-class AuthorController extends RestfulController {
+class AuthorController extends CrudRestfulController {
 
     AuthorController() {
         super(Author)

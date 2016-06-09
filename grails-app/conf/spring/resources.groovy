@@ -1,4 +1,4 @@
-import swaggy.hidden.WPSwaggyDataService
+import hiding.swagger.WPSwaggyDataService
 
 beans = {
     /**
