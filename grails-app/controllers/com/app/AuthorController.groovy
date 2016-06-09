@@ -14,4 +14,8 @@ class AuthorController extends RestfulController {
         super.index(max)
     }
 
+    def save() {
+        super.save()
+    }
+
 }

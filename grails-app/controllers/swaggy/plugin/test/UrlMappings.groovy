@@ -11,7 +11,6 @@ class UrlMappings {
 
         "/rest/authors" (resources:'author', excludes:['create', 'edit', 'patch']) { format = 'json' }
 
-
         "/"(view:"/index")
         "500"(view:'/error')
         "404"(view:'/notFound')
